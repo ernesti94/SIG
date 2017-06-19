@@ -114,7 +114,8 @@ if(isset($_SESSION['cart'])) {
     }
 
     else {
-        echo '<a href="login.php"><button type="button" class="btn btn-primary pull-right" style="text-align: right">Zamów</button></a>';
+        echo '<p style="color:indianred">Zaloguj się w celu dokończenia transakcji.</p>';
+        //echo '<a href="login.php"><button type="button" class="btn btn-primary pull-right" style="text-align: right">Zamów</button></a>';
     }
 
     echo '</td>';
