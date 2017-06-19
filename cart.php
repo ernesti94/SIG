@@ -64,7 +64,7 @@ function policz_rabat($koszt_calkowity,$kod){
 </div>
 <div class="container">
 <?php
-
+$total=0;
 echo '<p><h3>Twój koszyk</h3></p>';
 
 if(isset($_SESSION['cart'])) {

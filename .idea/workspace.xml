@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="717f499b-02af-40b1-a695-9b342fe4d8dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/orders.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cart.php" afterPath="$PROJECT_DIR$/cart.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +19,27 @@
     <favorites_list name="SIG" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="cart.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+              <folding>
+                <marker date="1497904542613" expanded="true" signature="2794:2879" ph="SELECT produ... products" />
+                <marker date="1497904542613" expanded="true" signature="3266:3272" ph=" " />
+                <marker date="1497904542613" expanded="true" signature="3323:3335" ph="..." />
+                <marker date="1497904542613" expanded="true" signature="3395:3401" ph=" " />
+                <marker date="1497904542613" expanded="true" signature="3432:3444" ph="..." />
+                <marker date="1497904542613" expanded="true" signature="3957:3963" ph=" " />
+                <marker date="1497904542613" expanded="true" signature="4217:4234" ph="..." />
+                <marker date="1497904542613" expanded="true" signature="4373:4390" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -42,8 +59,8 @@
         <option value="$PROJECT_DIR$/update.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/success.php" />
-        <option value="$PROJECT_DIR$/cart.php" />
         <option value="$PROJECT_DIR$/account.php" />
+        <option value="$PROJECT_DIR$/cart.php" />
       </list>
     </option>
   </component>
@@ -165,18 +182,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497874171398</updated>
-      <workItem from="1497874175071" duration="26290000" />
+      <workItem from="1497874175071" duration="26602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26290000" />
+    <option name="totallyTimeSpent" value="26602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -300,23 +317,6 @@
             <marker date="1497903671760" expanded="true" signature="7184:7202" ph="..." />
             <marker date="1497903671760" expanded="true" signature="7214:7220" ph="©" />
             <marker date="1497903671760" expanded="true" signature="7246:7260" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="91" column="40" lean-forward="false" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
-          <folding>
-            <marker date="1497903360879" expanded="true" signature="2785:2870" ph="SELECT produ... products" />
-            <marker date="1497903360879" expanded="true" signature="3257:3263" ph=" " />
-            <marker date="1497903360879" expanded="true" signature="3314:3326" ph="..." />
-            <marker date="1497903360879" expanded="true" signature="3386:3392" ph=" " />
-            <marker date="1497903360879" expanded="true" signature="3423:3435" ph="..." />
-            <marker date="1497903360879" expanded="true" signature="3948:3954" ph=" " />
-            <marker date="1497903360879" expanded="true" signature="4208:4225" ph="..." />
-            <marker date="1497903360879" expanded="true" signature="4364:4381" ph="..." />
           </folding>
         </state>
       </provider>
@@ -471,6 +471,23 @@
           <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <marker date="1497212705047" expanded="true" signature="226:367" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <marker date="1497904542613" expanded="true" signature="2794:2879" ph="SELECT produ... products" />
+            <marker date="1497904542613" expanded="true" signature="3266:3272" ph=" " />
+            <marker date="1497904542613" expanded="true" signature="3323:3335" ph="..." />
+            <marker date="1497904542613" expanded="true" signature="3395:3401" ph=" " />
+            <marker date="1497904542613" expanded="true" signature="3432:3444" ph="..." />
+            <marker date="1497904542613" expanded="true" signature="3957:3963" ph=" " />
+            <marker date="1497904542613" expanded="true" signature="4217:4234" ph="..." />
+            <marker date="1497904542613" expanded="true" signature="4373:4390" ph="..." />
           </folding>
         </state>
       </provider>
