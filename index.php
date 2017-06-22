@@ -2,12 +2,21 @@
 
 //if (session_status() !== PHP_SESSION_ACTIVE) {session_start();}
 if(session_id() == '' || !isset($_SESSION)){session_start();}
+
 include 'config.php';
+if (isset($_SESSION['type'])){
+    if ($_SESSION['type']=='admin'){
+//admin
+        header('location:add_product.php');
+}
+else {
+//user
+    }
+}
 ?>
-<html>
+<html lang="pl">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta  charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Sklep sportowy</title>
     <link rel="icon" href="http://example.com/favicon.png">
@@ -24,6 +33,8 @@ include 'config.php';
                 <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span>  Koszyk</a></li>
                 <?php
                 if(isset($_SESSION['username'])){
+                    //if user type => admin
+                    echo $_SESSION['type'];
 
                 ?>
                     <li><a href="account.php" ><span
@@ -98,7 +109,9 @@ include 'config.php';
         $_SESSION['product_id'] = $product_id;
 
         ?>
-
+<ul class="pagination">
+    <li>test</li>
+</ul>
 
 
 
@@ -219,3 +232,4 @@ include 'config.php';
 </div>
 </body>
 </html>
+

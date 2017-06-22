@@ -14,10 +14,9 @@ function policz_rabat($koszt_calkowity,$kod){
     }
 }
 ?>
-<html>
+<html lang="pl">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta  charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Sklep sportowy</title>
     <link rel="icon" href="http://example.com/favicon.png">
@@ -149,7 +148,7 @@ echo '</div>';
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="email">Email:</label>
                         <div class="col-sm-8">
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                            <input type="text" class="form-control" id="username" placeholder="Podaj login" name="username">
                         </div>
                     </div>
                     <div class="form-group">

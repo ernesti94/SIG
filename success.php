@@ -4,10 +4,9 @@
 if(session_id() == '' || !isset($_SESSION)){session_start();}
 include 'config.php';
 ?>
-<html>
+<html lang="pl">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta  charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Sklep sportowy</title>
     <link rel="icon" href="http://example.com/favicon.png">
@@ -50,6 +49,15 @@ include 'config.php';
 
     <div class="container-fluid" >
 <p>Akcja zakończona pomyślnie.</p>
+        <?php
+        if(isset($_POST['faktura'])){
+
+        }else{
+            echo "Nie wygenerowano faktury!
+            todo: funkcja do generowania faktury pdf.
+            ";
+        }
+        ?>
     </div>
 
 </div>

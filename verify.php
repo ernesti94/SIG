@@ -24,6 +24,7 @@ if($result){
       $_SESSION['type'] = $obj->type;
       $_SESSION['id'] = $obj->id;
       $_SESSION['fname'] = $obj->fname;
+      echo $_SESSION['type'];
       header("location:index.php");
     } else {
 
@@ -36,8 +37,9 @@ if($result){
 }
 
 function redirect() {
-  echo '<h1>Niepoprawny login</h1>';
-  header("Refresh: 3; url=index.php");
+  //echo '<h1>Niepoprawny login</h1>';
+  header("Refresh: 1; url=index.php");
+    //header("Location: index.php");
 }
 
 
